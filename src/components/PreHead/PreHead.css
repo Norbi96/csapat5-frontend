@@ -1,0 +1,39 @@
+.pre-head {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 5rem;
+  background-color: #14141d;
+  align-items: center;
+  border-radius: 0;
+}
+
+.head-left {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: fit-content;
+}
+.head-left a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-left .active {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  background-color: #0b0b13;
+  border-bottom: 6px solid lightblue;
+  font-weight: 600;
+}
+
+.head-right span {
+  display: flex;
+  align-items: center;
+}
+
+.head-right span a img{
+  width: 50px;
+  border-radius: 50%;
+}

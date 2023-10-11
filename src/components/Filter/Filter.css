@@ -1,0 +1,72 @@
+.filters {
+  display: flex;
+  gap: 0.6rem;
+
+}
+
+.filter form {
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border: 1px solid currentColor;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.filter form input[type="search"] {
+  border: none;
+  background: #14141d;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: 1px solid transparent;
+  border-radius: inherit;
+}
+
+.filter form input[type="search"]::placeholder {
+  color: #bbb;
+}
+
+.filter form button[type="submit"] {
+  overflow: hidden;
+  width: 40px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+
+.filter form button[type="submit"]:hover {
+  opacity: 1;
+}
+
+.filter form button[type="submit"]:focus,
+.filter form input[type="search"]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+
+
+.filter {
+  background-color: #0b0b13;
+  padding: 1rem;
+  color:white;
+}
+
+.filter h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1em
+}
+
+.filter hr {
+  margin: 0.2rem 0 0 0;
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(245, 245, 245, 0.31), rgba(245, 245, 245, 0.2));
+}

@@ -1,0 +1,130 @@
+.wrapper .right .pre-head .head-right span .mobile-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .wrapper .right .pre-head .header-left {
+    max-width: 180px;
+  }
+  .wrapper .right .pre-head .head-right span .mobile-menu{
+    display: block;
+    color: white;
+    transform: scale(138%);
+    margin: 0 1rem;
+    cursor: pointer;
+    position: relative;
+  }
+  .wrapper .right .pre-head .head-left {
+    display: none;
+  }
+  .header-left img {
+    display: none;
+  }
+  .header-left .logo  {
+    display: flex;
+  }
+
+  .header-left .logo a h5 {
+    display: none;
+  }
+  main {
+    width: 100%;
+    padding: 1.5rem 1rem;
+  }
+  main .grid fieldset {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  main .products-main .products-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.4rem;
+    transform: scale(90%);
+    gap: 0.8rem;
+  }
+  .mobile-menu-open {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    bottom: 0;
+    z-index: 10;
+  }
+  .mobile-menu-open .menu-open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+  }
+  .mobile-menu-open .menu-open button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    font-size: 3em;
+    font-family: 'Exo 2';
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .mobile-menu-open .menu-open button:hover{
+    background-color: antiquewhite;
+    color:black;
+  }
+  .mobile-menu-open .menu-open a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: black !important;
+    padding: 2rem;
+  }
+  .mobile-menu-open .menu-open a:hover {
+    color: white !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 708px) {
+  * {
+    font-size: 1em;
+  }
+  main {
+    width: 100%;
+    padding: 0.2rem;
+  }
+  main .products-main .products-header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2.4rem;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+  }
+  main .products-main .products .product {
+    width: 90%;
+  }
+  main .products-main .products .product img {
+    width: 100%;
+  }
+  main .grid fieldset {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cart section ul li:first-child span {
+    font-weight: 300; 
+    font-size: 1em;
+    display: flex;
+}
+}

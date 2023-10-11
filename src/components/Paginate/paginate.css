@@ -1,0 +1,19 @@
+.pagination {
+    align-self: center;
+    width: 10em;
+}
+
+.pagination ul {
+    display: flex;
+}
+
+.pagination ul li {
+    cursor: pointer;
+    border: 0;
+    padding: 1em
+}
+
+.pagination ul li:hover {
+    background-color: #2e2e2e;
+    color: white;  
+}

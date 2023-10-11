@@ -1,0 +1,51 @@
+.admin-orders {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-orders ul {
+      list-style: none;
+      width: 100%;
+    }
+    .admin-orders ul li:first-child {
+      font-family: 'Exo 2', sans-serif;
+      text-transform: uppercase;
+      border-bottom: 3px solid #2e2e2e;
+    }
+    .admin-orders ul li:first-child span {
+      font-family: 'Exo 2', sans-serif;
+      font-weight: 800;
+      font-style: italic;
+    }
+    .admin-orders ul li:first-child:hover {
+      background-color: inherit;
+      color:black;
+    }
+    .admin-orders ul li {
+      display: flex;
+      justify-content: center;
+      padding: 1rem;
+      margin: 0 1rem;
+      cursor: pointer;
+    }
+    .admin-orders ul li:hover {
+      background-color: #2e2e2e;
+      color: white;
+    
+    }
+    .admin-orders ul li span {
+      flex-basis: 25%;
+      font-family: 'Montserrat', sans-serif;
+    
+    }
+    .orderId{
+        white-space: nowrap; 
+        overflow:hidden;
+        text-overflow:ellipsis;
+        width:90%;
+    }
+    .orderId:hover{
+        white-space: normal; 
+        overflow: visible;
+        width: 100%; 
+    }

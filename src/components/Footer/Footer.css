@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+
+
+footer {
+  padding: 8rem;
+}
+#light footer {
+  box-shadow: -1px -3px 16px 0 rgba(208, 222, 213, 0.733);
+  -webkit-box-shadow: -1px -3px 16px 0 rgba(208, 222, 213, 0.733);
+  -moz-box-shadow: -1px -3px 16px 0 rgba(208, 222, 213, 0.733);
+}
+#dark footer {
+  box-shadow: -1px -3px 16px 0 rgba(54, 54, 54, 0.75);
+  -webkit-box-shadow: -1px -3px 16px 0 rgba(54, 54, 54, 0.75);
+  -moz-box-shadow: -1px -3px 16px 0 rgba(54, 54, 54, 0.75);
+}
+
+.footer {
+  grid-area: footer;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 0;
+}
+
+#light .footer {
+  background: rgb(208 222 213);
+}
+#dark .footer {
+  /* background: #0d3f8b; */
+  background-color: #020f24;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.4rem 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #131212da;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+#light .social-icon__link {
+  color: #1a1919;
+
+}
+#dark .social-icon__link {
+  color: #e6e2e2;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+#light .social-icon__link:hover {
+  color: rgb(105, 142, 211);
+}
+#dark .social-icon__link:hover {
+  color: rgb(255, 255, 255);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #1a1919;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 700;
+}
+#light .menu__link {
+  color: #1a1919;
+
+}
+#dark .menu__link {
+  color: #e6e2e2;
+}
+#light .footer p {
+  color: #1a1919;
+
+}
+#dark .footer p {
+  color: #e6e2e2;
+}
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #0e0d0d;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
